@@ -14,7 +14,7 @@ In selenium grid, there are 2 roles for the web drivers, `hub` and `node`.
 
 The `hub` is responsible for accepting all webdriver requests from the client. The `node` is a selenium-web-driver capable of running tests on various browsers. e.g. Chrome, Internet explorer, Firefox.
 
-![cname file content]({{ site.url }}/public/img/selenium_grid.png)
+![cname file content]({{ site.url }}/assets/img/selenium_grid.png)
 
 In the example grid above, it is setup with 1 hub and 7 nodes. Each node is capable of having 5 browsers sessions, and supports IE, Chrome and Firefox. With this setup, we can run *35* concurrent browser sessions.
 

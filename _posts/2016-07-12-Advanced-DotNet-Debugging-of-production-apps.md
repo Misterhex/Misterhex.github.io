@@ -17,20 +17,19 @@ Then run !gcroot <objectAddr> will show which objects are causing the object not
 
 ### Dump Heap
 Analyzing the heap
-[cname file content]({{ site.url }}/public/img/windbg1.png)
+[cname file content]({{ site.url }}/assets/img/windbg1.png)
 
 ### GC Roots
 Analyzing gc roots
-![cname file content]({{ site.url }}/public/img/windbg2.png)
-
+![cname file content]({{ site.url }}/assets/img/windbg2.png)
 
 ### PerfView
 PerfView is another powerful tools for .NET apps. In this example below, i used PerfView to collect GC statistics of a Production .NET app.
 
-![cname file content]({{ site.url }}/public/img/perfview.png)
+![cname file content]({{ site.url }}/assets/img/perfview.png)
 
 ### Performance Counter
 Provide useful stats emitted by the CLR and more.
 For example, I found out that one of our windows service was having up to 70% time in GC. 70 % of CPU cycles was used in garbage collections.
 
-![cname file content]({{ site.url }}/public/img/perfcounter.png)
+![cname file content]({{ site.url }}/assets/img/perfcounter.png)

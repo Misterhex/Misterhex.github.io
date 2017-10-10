@@ -5,14 +5,14 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-minimal_mistakes_skin    : "contrast" # "air", "contrast", "dark", "dirt", "mint", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "contrast", "dark", "dirt", "mint", "sunrise"
 
 # Site Settings
 locale                   : "en"
-title                    : "Solving problems with code"
+title                    : "Solving everyday problems with code"
 title_separator          : "-"
 name                     : "Tan Yong Heng"
-description              : "Solving problems with code"
+description              : "Solving everyday problems with code"
 url                      : "https://misterhex.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -87,7 +87,7 @@ author:
   avatar           : "/assets/bio.jpeg"
   bio              : "Software Architect | DevOps | Lead Engineer"
   location         : "Singapore"
-  email            : ""
+  email            : 
   uri              : 
   bitbucket        :
   codepen          :
@@ -179,7 +179,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 10 # amount of posts to show
+paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 

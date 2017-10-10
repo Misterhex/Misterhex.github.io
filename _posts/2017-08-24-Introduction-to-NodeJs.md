@@ -3,7 +3,7 @@ Recently, at work, i was tasked with providing a training session to [NodeJS](ht
 This post is a recap on what i covered on:
 
 ### What is NodeJS?
-![cname file content]({{ site.url }}/public/img/nodejs.png) 
+![cname file content]({{ site.url }}/assets/img/nodejs.png) 
 
 - Javascript running on the server.
 - Run on Chrome V8 javascript engine.
@@ -12,7 +12,7 @@ This post is a recap on what i covered on:
 - Currently version 8.4.0
 
 ### Architecture
-![cname file content]({{ site.url }}/public/img/nodejs_architecture.png) 
+![cname file content]({{ site.url }}/assets/img/nodejs_architecture.png) 
 
 `NodeJS` is powered by 2 major componenent, [V8](https://github.com/v8/v8) and [libuv](https://github.com/libuv/libuv).
 
@@ -21,7 +21,7 @@ This post is a recap on what i covered on:
 `v8` is the javascript engine in `node`.
 
 ### Why Non-Blocking I/O?
-![cname file content]({{ site.url }}/public/img/nodejs_event_loop.png) 
+![cname file content]({{ site.url }}/assets/img/nodejs_event_loop.png) 
 
 NodeJs is designed with non-blocking evented I/O, all I/O calls are returned on `callbacks`. This is very different from traditional frameworks in the sense when an I/O operation is happening, no application threads is blocked.
 

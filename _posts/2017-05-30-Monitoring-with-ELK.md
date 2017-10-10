@@ -17,7 +17,7 @@ In this blog post, i would like to share my understanding on the following topic
 
 ### What is the ELK Stack?
 
-![cname file content]({{ site.url }}/public/img/what-is-elk.png) 
+![cname file content]({{ site.url }}/assets/img/what-is-elk.png) 
 
 The ELK stack consists of the technologies; Elasticsearch, Logstash, and Kibana. 
 It works very well to provide a centralized logging and monitoring.
@@ -78,7 +78,7 @@ There are various commercial alternatives in the market that provide some of the
 
 ### Monitoring Openstack with ELK
 
-![cname file content]({{ site.url }}/public/img/elk-openstack.png) 
+![cname file content]({{ site.url }}/assets/img/elk-openstack.png) 
 
 I have used ELK to monitor our private cloud; openstack. Openstack is can be challenging to monitor because it can compose of up to 50 different services running to make openstack work! If any of this services start malfunctioning, administrators has to know and resolve quickly. We use filebeat to monitor important openstack logs and syslog. For, resource monitoring, we use metricbeat.
 
@@ -95,11 +95,11 @@ I have used ELK to monitor our private cloud; openstack. Openstack is can be cha
 - Master - cluster management
 - Data - store data, perform queries on shards.
 
-![cname file content]({{ site.url }}/public/img/elk-shards.png) 
+![cname file content]({{ site.url }}/assets/img/elk-shards.png) 
 
 ### Kibana
 
-![cname file content]({{ site.url }}/public/img/kibana.png) 
+![cname file content]({{ site.url }}/assets/img/kibana.png) 
 
 - Web interface.
 - Visualize data in elasticsearch.

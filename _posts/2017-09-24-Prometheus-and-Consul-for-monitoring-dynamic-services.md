@@ -75,16 +75,16 @@ scrape_configs:
     scrape_interval: 1s
 
     static_configs:
-      - targets: ["{{ groups['all'] | join(':9182", "') }}:9182"]
+      - targets: ["xxx.xxx.xxx.xxx:9182"]
 {% endhighlight %}
 
 Whenever, we provisioned a node in the cloud, we run consul client and join it to the consul cluster. 
 
 Once a node joined, we see the node showing up in consul ui. Consul monitor the node using `serfHealthCheck`.
-![cname file content]({{ site.url }}/public/img/consul-detail.png) 
+![cname file content]({{ site.url }}/assets/img/consul-detail.png) 
 
 Prometheus picking up the targets to monitor from consul:
-![cname file content]({{ site.url }}/public/img/prometheus.png) 
+![cname file content]({{ site.url }}/assets/img/prometheus.png) 
 
 Grafana charting data from prometheus:
-![cname file content]({{ site.url }}/public/img/grafana-ss-.png) 
+![cname file content]({{ site.url }}/assets/img/grafana-ss-.png) 
