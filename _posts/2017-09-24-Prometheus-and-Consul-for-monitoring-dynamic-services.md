@@ -1,7 +1,3 @@
----
-layout: post
-title: "Prometheus and Consul for monitoring dynamic services"
----
 `Prometheus` is a tool/database that is used for monitoring. Prometheus adopt a **pull based model** in getting metrics data by querying each targets defined in its configuration. 
 
 `Consul` is a service discovery tool by hashicorp, it allows services/virtual machines to be registered to it and then provide `dns` and `http` interfaces to query on the state of the registered services/virtual machines.

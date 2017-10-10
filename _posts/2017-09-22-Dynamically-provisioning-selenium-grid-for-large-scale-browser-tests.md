@@ -1,7 +1,3 @@
----
-layout: post
-title: "Dynamically provisioning selenium grid for large scale browser tests"
----
 Recently, as a `DevOps` consultant, I helped improve the performance of running large scale browser automation tests. 
 
 The client's current infrastructure and setup was running the tests locally on their QA machines in a single windows server 2012 installed with selenium web driver. This setup is simplistic but unable to scale to large number of tests.

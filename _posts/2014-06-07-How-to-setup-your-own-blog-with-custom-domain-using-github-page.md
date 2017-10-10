@@ -1,7 +1,3 @@
----
-layout: post
-title: "How to setup your own blog with custom domain using github page"
----
 I am hosting this blog free using github page. I use hyde theme and custom domain from godaddy. I will share the steps below so that anyone can follow and get their own blog hosted for free.
 
 First, you need to sign for a github account. Headover [here](https://github.com/) to sign up. 
