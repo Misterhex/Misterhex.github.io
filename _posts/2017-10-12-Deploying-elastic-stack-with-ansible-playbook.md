@@ -1,17 +1,15 @@
-In my devops role, we adopt infrastructure as code, all our configuration of software are automated using [ansible](https://www.ansible.com) and `ansible playbook`. 
-
-I am using `ansible` for a lot of configuration management scripts. 
+In my devops role, we adopt infrastructure as code, all our configuration of software are automated using [ansible](https://www.ansible.com) and `ansible playbook`. I am using `ansible` for a lot of configuration management scripts. 
 
 One of the configuration scripts I did was for automating the configuration of the [elastic stack](https://www.elastic.co).
 
-This scripts is availabe at my github repo, [https://github.com/Misterhex/ansible-elk](https://github.com/Misterhex/ansible-elk)
+This script is availabe at my github repo, [https://github.com/Misterhex/ansible-elk](https://github.com/Misterhex/ansible-elk)
 
 This script configure:
 - elasticsearch cluster with N number of nodes.
 - kibana
 - curator
 - metricbeats on all compute nodes.
-- import default dashboard
+- import default dashboard for metricbeat
 
 Below is the main playbook file `site.yml`
 
@@ -64,7 +62,7 @@ Below is the main playbook file `site.yml`
 {% endhighlight %}
 
 ### Concepts
-Playbook contains `plays` that will run when we execute the playbook. `Plays` contains `Roles`. `Roles` are basically recommended encapsulation of a series of `steps` that invoke ansible `modules`. `Modules` are built-in [idempontent](https://stackoverflow.com/a/1077421/1610747) functions that configure the target servers. Servers are grouped and defined in `inventories`, they are defined in an `inventory file`.
+Playbook contains `plays` that will run when executed, `plays` maps to `inventory`. `Plays` contains `Roles`. `Roles` are basically recommended encapsulation of a series of `steps` that invoke ansible `modules`. `Modules` are built-in [idempontent](https://stackoverflow.com/a/1077421/1610747) functions that configure the target servers. Servers are grouped and defined in `inventories`, they are defined in an `inventory file`.
 
 Below is an example inventory file:
 {% highlight ini %}
