@@ -86,7 +86,7 @@ xxx.xxx.xxx.xxx
 {% endhighlight %}
 
 ### Running the playbook
-To run the playbook,
+To run the playbook, it is as simple as:
 ```
 ansible-playbook -i inventory-sample site.yml
 ```
