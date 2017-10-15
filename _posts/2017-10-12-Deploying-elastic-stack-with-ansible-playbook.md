@@ -88,7 +88,10 @@ xxx.xxx.xxx.xxx
 {% endhighlight %}
 
 ### Running the playbook
-To run the playbook
+To run the playbook,
 ```
 ansible-playbook -i inventory-sample site.yml
 ```
+
+### Conclusion 
+In conclusion, ansible is a simple yet awesome tools for automating configuration of softwares/services. Get started with installation [here](http://docs.ansible.com/ansible/latest/intro_installation.html).
