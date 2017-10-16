@@ -56,3 +56,5 @@ IMO, `Golang` & `C#` are by far the best languages with concurrency support bake
 - NPM version 5 generate `package.lock.json` to guarantee similar dependencies are always restored.
 - Alternative to npm: [Yarn](http://yarnpkg.com)
 
+### Conclusion
+NodeJs is a pretty decent choice for building apps that require high I/O scalability.

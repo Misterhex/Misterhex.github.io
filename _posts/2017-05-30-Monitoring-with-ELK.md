@@ -138,3 +138,6 @@ https://github.com/yelp/elastalert
 Opensource alerting module.
 Automated way to providing alerts to slack, pagerduty, email, etc.
 Detect data anomalies and send alert.
+
+### Conclusion
+ELK is great for monitoring, centralized logging, analytics. However, resource consumptions can be pretty heavy comparing to alternatives. For example, if you simply needed monitoring & alerts, prometheus & grafana might be a better choice.

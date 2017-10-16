@@ -65,4 +65,5 @@ The tool does the followings:
 
 4. terraform destroy when tests is completed to de-provisioned the nodes on our cloud provider.
 
+### Conclusion
 We then ran this tool as part of our client continous integration pipeline in jenkins. With this setup, we achieved a cost efficient solution for running large number of browser automation tests.

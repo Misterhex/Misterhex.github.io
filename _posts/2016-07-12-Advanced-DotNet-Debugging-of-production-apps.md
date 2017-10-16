@@ -17,7 +17,7 @@ Then run !gcroot <objectAddr> will show which objects are causing the object not
 
 ### Dump Heap
 Analyzing the heap
-[cname file content]({{ site.url }}/assets/img/windbg1.png)
+![cname file content]({{ site.url }}/assets/img/windbg1.png)
 
 ### GC Roots
 Analyzing gc roots
@@ -33,3 +33,7 @@ Provide useful stats emitted by the CLR and more.
 For example, I found out that one of our windows service was having up to 70% time in GC. 70 % of CPU cycles was used in garbage collections.
 
 ![cname file content]({{ site.url }}/assets/img/perfcounter.png)
+
+
+### Conclusion
+Leverage these tools to help troubleshoot pesky production issues on the windows .net platform.

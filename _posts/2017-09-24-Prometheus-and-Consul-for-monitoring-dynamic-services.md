@@ -88,3 +88,6 @@ Prometheus picking up the targets to monitor from consul:
 
 Grafana charting data from prometheus:
 ![cname file content]({{ site.url }}/assets/img/grafana-ss-.png) 
+
+### Conclusion
+Using prometheus and consul service discovery i was able to monitor dynamic infrastructure.

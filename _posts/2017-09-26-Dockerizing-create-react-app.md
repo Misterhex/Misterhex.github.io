@@ -48,3 +48,6 @@ CMD [ "serve", "-s", "build" ]
 In the dockerfile above, first we are building an image based on node of 8.5.0 alpine tag. This image is light weight and has what we needed to build the app. Next, it copy our source into the container and then we start running npm install to download the dependencies. Next, it run npm build, npm build will trigger react-scripts build, react-scripts will output a production optimized build to the 'build' folder.
 
 Noticed that there is a second `FROM` in the dockerfile. This is the multi-stage build feature. What happens here is that the image building process will start fresh on this new image. Then only the resulting `Build` folder from the previous `stage` is copied into this new `stage`. Next, we simply install `serve` which is used to serve the build folder. 
+
+### Conclusion
+Docker multi-stage build is an awesome feature to keep production containers lightweight and fast to pull.
