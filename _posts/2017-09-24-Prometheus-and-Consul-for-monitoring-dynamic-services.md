@@ -1,5 +1,5 @@
 ---
-categories: devops prometheus grafana consul
+tags: devops prometheus grafana consul
 ---
 
 `Prometheus` is a tool/database that is used for monitoring. Prometheus adopt a **pull based model** in getting metrics data by querying each targets defined in its configuration. 

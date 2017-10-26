@@ -1,5 +1,5 @@
 ---
-categories: devops selenium aws docker ansible terraform
+tags: devops selenium aws docker ansible terraform
 ---
 
 Recently, as a `DevOps` consultant, I helped improve the performance of running large scale browser automation tests. 
