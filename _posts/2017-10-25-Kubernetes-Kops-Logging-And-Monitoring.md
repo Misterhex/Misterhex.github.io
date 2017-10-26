@@ -1,5 +1,5 @@
 ## TL;DR 
-Follow this [example github repo](https://github.com/Misterhex/kubernetes-logging-monitoring-example) to setup kubernetes using kops, then run daemonsets for fluentd and metricbeat for monitoring.
+Follow my [example github repo](https://github.com/Misterhex/kubernetes-logging-monitoring-example) to setup kubernetes using kops, then run daemonsets for fluentd and metricbeat for monitoring.
 
 ## Background
 Recently, i am helping our client to move applications to containerized microservices and architecture.
