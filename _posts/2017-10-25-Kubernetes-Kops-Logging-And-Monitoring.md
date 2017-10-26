@@ -1,6 +1,5 @@
 ## TL;DR 
-Follow my github repo to setup kubernetes using kops, then run daemonsets for fluentd and metricbeat for monitoring.
-[https://github.com/Misterhex/kubernetes-logging-monitoring-example](https://github.com/Misterhex/kubernetes-logging-monitoring-example)
+Follow this [example github repo](https://github.com/Misterhex/kubernetes-logging-monitoring-example) to setup kubernetes using kops, then run daemonsets for fluentd and metricbeat for monitoring.
 
 ## Background
 Recently, i am helping our client to move applications to containerized microservices and architecture.
@@ -55,4 +54,4 @@ Metricbeat dashboard in kibana:
 
 ## Conclusion
 
-Centralized logging and monitoring is important to setup before moving to production with kubernetes.
+Centralized logging and monitoring is important to setup before moving to production with kubernetes. I have created an [example kubernetes github repo](https://github.com/Misterhex/kubernetes-logging-monitoring-example) that contains the kubernetes yaml files to deploy everything we discussed.
