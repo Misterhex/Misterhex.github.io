@@ -5,11 +5,13 @@ Follow my github repo to setup kubernetes using kops, then run daemonsets for fl
 ## Background
 Recently, i am helping our client to move applications to containerized microservices and architecture.
 
-Moving to `docker` containers is great, but docker alone does not allow us to orchestrate our containers in productions and making sure that they can scale and provide highly availablility. In this post, i would like to document how we are running `kubernetes` in production.
+Moving to `docker` containers is great, but docker alone does not allow us to orchestrate our containers in productions and making sure that they can scale and provide highly availablility.
+
+In this post, i would like to document how we are running `kubernetes` in production.
 
 ## KOPS ( Kubernetes Operation)
 
-We adopted `kubernetes` as our containers orchestrator. There are various ways to operate a kubernetes clusters and it can be range from really complex to simple hosted solutions.
+We adopted `kubernetes` as our containers orchestrator of choice. There are various ways to operate a kubernetes clusters and it can range from being really complex to simple hosted cloud solutions.
 
 These are some of the various tools and platforms:
 
@@ -19,8 +21,6 @@ These are some of the various tools and platforms:
 - Kubeadm ( baremetal, virtual machines )
 - More..
 
-The different ways of provisioning and managing clusters is well documented `here`.
-
 We are using `kops` to provision our cluster `aws`, using `kops` we get multi-az nodes deployment and auto scaling group at the cluster level. We actually evaluated a couple of options before deciding on `kops`. Our client is already on `aws` and is comfortable with it. also, `kops` project has quite a strong community involvement.
 
 Learn more about `kops` [here](https://github.com/kubernetes/kops)
@@ -29,7 +29,7 @@ Learn more about `kops` [here](https://github.com/kubernetes/kops)
 
 Running kubernetes dashboard allow us to visualize what kubernetes resources are running or getting scheduled.
 
-![cname file content]({{ site.url }}/assets/img/kube_dashboard.png)
+![cname file content]({{ site.url }}/assets/img/kube-dashboard.png)
 
 ## Datastore
 
