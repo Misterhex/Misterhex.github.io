@@ -2,7 +2,7 @@
 Follow my [example github repo](https://github.com/Misterhex/kubernetes-logging-monitoring-example) to setup kubernetes using kops, then run daemonsets for fluentd and metricbeat for monitoring.
 
 ## Background
-Recently, i am helping our client to move applications to containerized microservices and architecture.
+Recently, i am helping our client move applications to containerized microservices and architecture style.
 
 Moving to `docker` containers is great, but docker alone does not allow us to orchestrate our containers in productions and making sure that they can scale and provide highly availablility.
 
