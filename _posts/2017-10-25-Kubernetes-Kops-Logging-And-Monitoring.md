@@ -45,12 +45,12 @@ We run `fluentd` as daemonsets on every kubernetes nodes. In kubernetes, all con
 
 ## Monitoring
 
-Monitoring is done using metricbeat and [kube-state-metric](https://github.com/kubernetes/kube-state-metrics). `kube-state-metric` is a simple service that listens to the Kubernetes API server and generates metrics about the state of the objects. `Metricbeat` grab data from `kube-state-metric` into `elasticsearch`.
+Monitoring is done using [metricbeat](https://www.elastic.co/products/beats/metricbeat) and [kube-state-metric](https://github.com/kubernetes/kube-state-metrics). `kube-state-metric` is a simple service that listens to the Kubernetes API server and generates metrics about the state of the objects. `Metricbeat` grab data from `kube-state-metric` into `elasticsearch`.
 
-kubernetes dashboard in kibana:
+Kubernetes dashboard in kibana:
 ![cname file content]({{ site.url }}/assets/img/k8_1.png)
 
-metricbeat dashboard in kibana:
+Metricbeat dashboard in kibana:
 ![cname file content]({{ site.url }}/assets/img/k8_2.png)
 
 ## Conclusion
