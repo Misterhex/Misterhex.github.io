@@ -1,5 +1,5 @@
 ---
-tags: software-engineering nodejs
+tags: [software-engineering, nodejs]
 ---
 
 Recently, at work, i was tasked with providing a training session to [NodeJS](https://nodejs.org/en/) to help adopt `node` to our organization.

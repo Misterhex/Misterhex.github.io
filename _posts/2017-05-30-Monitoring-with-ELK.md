@@ -1,5 +1,5 @@
 ---
-tags: devops elasticsearch
+tags: [devops, elasticsearch]
 ---
 
 I have been leveraging ELK for monitoring various production workloads. 

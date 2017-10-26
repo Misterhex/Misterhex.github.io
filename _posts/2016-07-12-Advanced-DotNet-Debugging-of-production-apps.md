@@ -1,5 +1,5 @@
 ---
-tags: software-engineering .net windows
+tags: [software-engineering, .net, windows]
 ---
 
 In my experience as a software architect, i have used several tools to help debug production .NET applications. 

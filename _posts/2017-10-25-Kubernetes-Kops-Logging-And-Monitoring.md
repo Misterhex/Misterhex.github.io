@@ -1,6 +1,6 @@
 ---
 title:  "Kubernetes, Kops, Logging and Monitoring"
-tags: devops kubernetes docker
+tags: [devops, kubernetes, docker]
 ---
 
 ## TL;DR 

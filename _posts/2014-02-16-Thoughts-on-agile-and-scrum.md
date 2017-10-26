@@ -1,5 +1,5 @@
 ---
-tags: software-engineering agile scrum
+tags: [software-engineering, agile, scrum]
 ---
 
 So i have been working in the [Scrum](http://en.wikipedia.org/wiki/Scrum_%28development%29) and [Agile](en.wikipedia.org/wiki/Agile_software_development) metholodology for about 4 years now. I feel like i could share some of my thoughts.
