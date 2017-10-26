@@ -14,13 +14,13 @@ We adopted `kubernetes` as our containers orchestrator of choice. There are vari
 
 These are some of the various tools and platforms:
 
-- Kops ( run on aws )
-- Google container engine ( google cloud )
-- Jujucharms, canonical distribution of kubernetes ( baremetal, metal cloud ( Machine as a service ), virtual machines )
-- Kubeadm ( baremetal, virtual machines )
+- [Kops](https://github.com/kubernetes/kops) ( run on aws )
+- [Google container engine](https://cloud.google.com/container-engine/) ( google cloud )
+- [Jujucharms, canonical distribution of kubernetes](https://www.ubuntu.com/kubernetes) ( baremetal, metal cloud ( Machine as a service ), virtual machines )
+- [Kubeadm](https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/) ( baremetal, virtual machines )
 - More..
 
-We are using `kops` to provision our cluster `aws`, using `kops` we get multi-az nodes deployment and auto scaling group at the cluster level. We actually evaluated a couple of options before deciding on `kops`. Our client is already on `aws` and is comfortable with it. also, `kops` project has quite a strong community involvement.
+We are using `kops` to provision our cluster `aws`. We found `kops` to be most robust and work seamlessly for us. Using `kops` we get multi-az nodes deployment and auto scaling group at the cluster level. We actually evaluated a couple of options before deciding on `kops`. Our client is already on `aws` and is comfortable with it. also, `kops` project has quite a strong community involvement. 
 
 Learn more about `kops` [here](https://github.com/kubernetes/kops)
 
