@@ -1,3 +1,8 @@
+---
+title:  "Kubernetes, Kops, Logging and Monitoring"
+categories: kubernetes devops
+---
+
 ## TL;DR 
 Follow my [example github repo](https://github.com/Misterhex/kubernetes-logging-monitoring-example) to setup kubernetes using kops, then run daemonsets for fluentd and metricbeat for monitoring.
 
