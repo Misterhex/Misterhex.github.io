@@ -1,5 +1,5 @@
 ---
-categories: elasticsearch ansible
+categories: devops elasticsearch ansible
 ---
 
 In my devops role, we adopt the principles of [infrastructure as code](https://www.thoughtworks.com/insights/blog/infrastructure-code-reason-smile). With the motivation to automate as much infrastructure work as possible, many of our configuration are automated using [ansible](https://www.ansible.com) and `ansible playbook`. I am using `ansible` for a lot of configuration management scripts. 

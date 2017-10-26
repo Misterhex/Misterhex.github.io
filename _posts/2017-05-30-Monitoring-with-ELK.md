@@ -1,3 +1,7 @@
+---
+categories: devops elasticsearch
+---
+
 I have been leveraging ELK for monitoring various production workloads. 
 Recently, I used the elastic stack to monitor our internal private cloud; openstack.
 ELK is a all in 1 solution for log centralization, monitoring and analytics.

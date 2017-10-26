@@ -1,3 +1,7 @@
+---
+categories: software-engineering nodejs
+---
+
 Recently, at work, i was tasked with providing a training session to [NodeJS](https://nodejs.org/en/) to help adopt `node` to our organization.
 
 This post is a recap on what i covered on:

@@ -1,3 +1,7 @@
+---
+categories: software-engineering .net windows
+---
+
 In my experience as a software architect, i have used several tools to help debug production .NET applications. 
 
 Windows debugger, procdump, procexp, perview and performance counters and perfmon are invaluable tools that help diagnose production performance issues.

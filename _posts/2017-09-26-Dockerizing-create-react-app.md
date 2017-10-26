@@ -1,3 +1,7 @@
+---
+categories: devops docker reactjs
+---
+
 [Create-react-app](https://github.com/facebookincubator/create-react-app) is a command line tool to help easily get a simple reactjs app started and going. It abstract away the learning curve and complexity of setting up so we dont have to deal with webpack, transpiling, and setting up a basic skeleton.
 
 In this post, we will dockerize a basic app generated from `create-react-app` using [multi stage build](https://docs.docker.com/engine/userguide/eng-image/multistage-build/) provided by docker to create lean node image based on alpine linux.

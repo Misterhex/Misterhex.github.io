@@ -1,3 +1,7 @@
+---
+categories: devops testing
+---
+
 I recently read this really informative [article](https://watirmelon.blog/2012/01/31/introducing-the-software-testing-ice-cream-cone/) on integration tests anti pattern. What triggers me to look into more of this is a situation with my consulting client, they have a culture that falls exactly into this anti pattern known as the testing ice cream cone.
 
 ![cname file content]({{ site.url }}/assets/img/softwaretestingicecreamconeantipattern.png)
