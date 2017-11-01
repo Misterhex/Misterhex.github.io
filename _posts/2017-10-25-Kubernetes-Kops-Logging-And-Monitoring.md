@@ -4,22 +4,23 @@ tags: [devops, kubernetes, docker]
 ---
 
 ## TL;DR 
-Follow my [example github repo](https://github.com/Misterhex/kubernetes-logging-monitoring-example) to setup kubernetes using kops, then run daemonsets for fluentd and metricbeat for monitoring.
+To quickly setup kubernetes and monitoring using kops, follow my [example github repository](https://github.com/Misterhex/kubernetes-logging-monitoring-example). 
 
 ## Background
-Recently, i am helping our client move applications to containerized microservices and architecture style.
+Recently, i am helping our client move their applications to containerized microservices.
 
-Moving to `docker` containers is great, but docker alone does not allow us to orchestrate our containers in productions and making sure that they can scale and provide highly availablility.
+Moving to `docker` containers provide many benefits. However, docker alone does not allow us to orchestrate our containers in productions, so that we can horizontally scale our microservices across nodes to provide highly availablility and scalability. To solve that problem, we need a container platform/orchestrator technology. We adopted `kubernetes` as our containers orchestrator of choice. 
 
 In this post, i would like to document how we are running `kubernetes` in production.
 
 ## KOPS ( Kubernetes Operation)
 
-We adopted `kubernetes` as our containers orchestrator of choice. There are various ways to operate a kubernetes clusters and it can range from being really complex to simple hosted cloud solutions.
+There are various ways to operate a kubernetes clusters and it can range from being really complex to simple hosted cloud solutions.
 
 These are some of the various tools and platforms:
 
 - [Kops](https://github.com/kubernetes/kops) ( run on aws )
+- Openshift
 - [Google container engine](https://cloud.google.com/container-engine/) ( google cloud )
 - [Jujucharms, canonical distribution of kubernetes](https://www.ubuntu.com/kubernetes) ( baremetal, metal cloud ( Machine as a service ), virtual machines )
 - [Kubeadm](https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/) ( baremetal, virtual machines )
