@@ -2,7 +2,7 @@
 tags: [devops, elasticsearch, ansible]
 ---
 
-In my devops role, we adopt the principles of [infrastructure as code](https://www.thoughtworks.com/insights/blog/infrastructure-code-reason-smile). With the motivation to automate as much infrastructure work as possible, many of our configuration are automated using [ansible](https://www.ansible.com) and `ansible playbook`. I am using `ansible` for a lot of configuration management scripts. 
+As a devops consultant, I have worked with `ansible` quite a bit. Following the principles of [infrastructure as code](https://www.thoughtworks.com/insights/blog/infrastructure-code-reason-smile) and with the motivation to automate as much infrastructure work as possible, many of our configuration are automated and manage as normal code, we commit them with `git` and even run yaml syntax check in our ci/cd pipeline.
 
 One of the configuration scripts I did was for automating the configuration of the [elastic stack](https://www.elastic.co).
 
