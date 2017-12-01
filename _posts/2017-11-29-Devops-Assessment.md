@@ -7,39 +7,39 @@ As DevOps consultant, when we have a new clients to partner with. Our approach i
 
 For example, these are some questions we ask:
 
-### Process and Agility
+## Process and Agility
 
 The goal for modern application delivery is responsiveness, which relies on flexible scheduling, limiting work in process in favor of iterative experiments, and close team collaboration to facilitate real-time communication and eliminate wasteful handoffs. High performers have multidisciplinary feature crews who pull from a common product-backlog, minimize work in process, and deliver work ready to deploy live at the end of each sprint.
 
-#### How do you plan, prioritize and schedule work?
+### How do you plan, prioritize and schedule work?
 
 - In timeboxes such as sprints
 - By feature completion against spec
 - We strive for a one-piece flow of product backlog items, stack-ranked, and delivered continuously
 - We create measurable experiments from hypotheses and use production data to assess results
 
-#### How do you manage suppliers for outsourced development?
+### How do you manage suppliers for outsourced development?
 
 - We negotiate fixed price and fixed date contracts
 - We pay time and materials
 - We use the scope of work to estimate initially and adjust the estimates accordingly
 - We work on a basis of establishing trust and frequently reviewing outcomes as a basis for renewal. The supplier only produces value to the customer based on the mutually managed backlogs
 
-#### What is your Definition of Done?
+### What is your Definition of Done?
 
 - The person doing the work decides if work is complete
 - Done means a potentially shippable increment is available at the end of a timebox
 - Done means software is deployed in production, available to real users
 - Done means we are collecting real-time telemetry on quality of service and usage against new deployments to real users
 
-#### How do development and operations teams collaborate during a production issue?
+### How do development and operations teams collaborate during a production issue?
 
 - Production incidents are handled by operations staff. Only If all operational procedures have failed to restore service level, then an escalation process may be started on an exception basis to engage developers
 - Devs and Ops do a joint retrospective to review the root cause of an issue once it's resolved. They plan how to prevent a recurrence
 - They collaborate in real time, in a physical team room/war room or online chat room, IRC, IM, or other messaging channel
 - Developers rotate on-call duty and, when on duty, are paged to participate without delay in troubleshooting live site incidents related to their area of code
 
-#### What are your policies around open source software?
+### What are your policies around open source software?
 
 - Using open source components requires legal review and management approval
 - We keep a central package store of approved open source components
@@ -48,31 +48,31 @@ The goal for modern application delivery is responsiveness, which relies on flex
 
 > Top-performing organizations go beyond cross-functional to create true multi-disciplinary teams including business, dev, test, and IT ops. They allow autonomous teams to go fast, while aligning with enterprise objectives. Their quality practices are nimble and rigorous. Even across teams, clear shared ownership and a culture of user empathy make strong collaboration normative. Development activities result in measurable experiments that can inform decision-making. Here is a good starting point for Agile work practices.
 
-### Version Control
+## Version Control
 
 Version control enables teams located anywhere in the world to communicate effectively during daily development activities as well as to integrate with software development tools for monitoring activities such as deployments.
 
-#### What files do you keep under version control?
+### What files do you keep under version control?
 
 - Source code and tests
 - Application source code
 - Configuration files
 - All files used to build, test, configure, deploy, run and document our service
 
-#### What is your branching policy?
+### What is your branching policy?
 
 - We keep new work in separate branches and merge only when finished, usually in weeks or months
 - We have no branches and develop only in the trunk or master
 - We use branches that live for a few days max and commit all changes to the master or trunk at least daily
 - We keep traceability on code changes but treat branches as temporary by using topic branches that we squash-merge to master when the work is complete
 
-#### How do you review code changes?
+### How do you review code changes?
 
 - We review code changes infrequently
 - Some code is reviewed and we capture the review history using a pull request workflow or the equivalent
 - We make sure all code changes are peer-reviewed before being committed to the master or trunk by means of a pull request workflow or the equivalent
 
-#### How do you manage code dependencies across teams?
+### How do you manage code dependencies across teams?
 
 - We track them in a spreadsheet or document
 
@@ -84,11 +84,11 @@ Version control enables teams located anywhere in the world to communicate effec
 
 > The best performers version everything: code, tests, configurations, pipeline definitions, docs. They use "topic" branches for short-term isolation only and make sure that all code changes are merged into the common master or trunk continuously. Workflows such as Git pull requests ensure that changes are reviewed and auditable. Here is a good starting point for learning about version control with Git.
 
-### Continuous Integration and Continuous Delivery
+## Continuous Integration and Continuous Delivery
 
 Continuous Integration refers to the practice of triggering an automated build and test sequence with every commit of code changes. Continuous Delivery extends this to trigger further testing and the deployment to production, with approval if necessary. CI/CD form the core DevOps flow, enabling a team to move software swiftly from initial idea through creation and validation into a production release without impediments or manual rework.
 
-#### How do you roll out new features to users?
+### How do you roll out new features to users?
 
 - We deploy when the appropriate manager approves
 
@@ -100,11 +100,11 @@ Continuous Integration refers to the practice of triggering an automated build a
 
 > The State of DevOps Report confirms that top-performing organizations deploy 200x more frequently than low-performers. Dependable Continuous Delivery is the core capability to enable this speed. The shorter cycle times support increased responsiveness, with 24x faster recovery from failure, and higher quality, with 3x lower change failure rates. These capabilities in turn foster stakeholder satisfaction and trust. Here is a good starting point for continuous delivery.
 
-### Cloud and Infrastructure
+## Cloud and Infrastructure
 
 In the past, adding infrastructure was always bottlenecked and fixed cost to budget. Nowadays, teams can use the Public and Hybrid Clouds to gain capacity on demand. With a well-managed cloud, your teams can provision resources as needed and move as fast as they need.
 
-#### What is your policy for using the public cloud?
+### What is your policy for using the public cloud?
 
 - We don't allow use of the public cloud
 
@@ -114,7 +114,7 @@ In the past, adding infrastructure was always bottlenecked and fixed cost to bud
 
 - We strive for the best security, end-user experience and quality of service in a cloud-native manner
 
-#### How are passwords and other secrets managed?
+### How are passwords and other secrets managed?
 
 - Secrets are managed by Operations
 
@@ -126,11 +126,11 @@ In the past, adding infrastructure was always bottlenecked and fixed cost to bud
 
 > Public and Hybrid Clouds have made the impossible easy. The cloud has removed traditional bottlenecks and helped commoditize infrastructure. Whether you use Infrastructure as a Service (IaaS) to lift and shift your existing apps, or Platform as a Service (PaaS) to gain unprecedented productivity, or containerize your apps for high density and development efficiency, the cloud gives you a datacenter without limits. Here is a good starting point for infrastructure as code.
 
-### Testing
+## Testing
 
 Testing used to be a slow, infrequent activity. So slow, that testing cadence would determine a team's ability to release. DevOps strives for testing as a continuous activity, embedded into both the developer workflow and the pipeline used for continuous integration and continuous delivery.
 
-#### What does your team consider good testing?
+### What does your team consider good testing?
 
 - Testing that validates conformance to requirements and fixes of identified bugs
 
@@ -140,7 +140,7 @@ Testing used to be a slow, infrequent activity. So slow, that testing cadence wo
 
 - Testing that promotes continuous improvement in user satisfaction, quality of service, and performance on business objectives
 
-#### How do you test mobile apps?
+### How do you test mobile apps?
 
 - We test manually when we can
 
@@ -152,11 +152,11 @@ Testing used to be a slow, infrequent activity. So slow, that testing cadence wo
 
 > High performers test continuously, running tests and validating software during coding, building and deploying the app. Continuous testing allows development teams to identify issues early and enables them to deliver a continuous stream of customer value fast and with high confidence. Without continuous testing, release cycles are long and often get delayed because critical issues are found too late in the cycle. Here is a good starting point for continuous testing.
 
-### Monitoring
+## Monitoring
 
 Monitoring of running applications in production environments enables a DevOps team to detect issues as they occur, to mitigate the impact, and to understand the application health. Further monitoring of customer usage helps organizations form hypotheses and quickly validate or disprove experiments.
 
-#### What instrumentation do you use to monitor applications running in production?
+### What instrumentation do you use to monitor applications running in production?
 
 - Availability monitoring via pinging or synthetic transactions
 
@@ -168,11 +168,11 @@ Monitoring of running applications in production environments enables a DevOps t
 
 > Good decisions are informed by data. High performers instrument everything, not just for health, availability, performance, and other qualities of service, but to understand usage and to collect evidence relative to the backlog hypotheses. For example, they will experiment with changes to user experience and measure the impact on conversion rates in the funnel. They will contrast usage data among cohorts, such as weekday and weekend users, to hypothesize ways of improving the experience for each. Here is a good starting point for monitoring.
 
-### Culture
+## Culture
 
 Organizational culture matters. If team members feel that they know how to innovate and take risks, they will go farther. Leadership that supports, stimulates, inspires and recognizes individual contribution makes a measurable difference.
 
-#### Who makes decisions in the organization?
+### Who makes decisions in the organization?
 
 - All decisions are made by leadership/management
 
@@ -182,7 +182,7 @@ Organizational culture matters. If team members feel that they know how to innov
 
 - Leadership sets guardrails and communication mechanisms for safe decision-making. Guardrails are reviewed regularly to ensure they continue to foster autonomy and safety
 
-#### How does your team collaborate, share risks, innovate, and learn?
+### How does your team collaborate, share risks, innovate, and learn?
 
 - We keep to ourselves to avoid being blamed for failure. Risk-taking is discouraged
 
@@ -192,11 +192,11 @@ Organizational culture matters. If team members feel that they know how to innov
 
 - There is high cooperation among teams. Risks are shared. Failure leads to learning and inquiry to help the team improve. Innovation is encouraged and implemented
 
-### Measurement
+## Measurement
 
 Measurement is key to being able to assess performance and target improvement. Measurement allows you to see the state of the app in production, the flow from idea to code to delivery, and the actual usage of the features you produce.
 
-#### How do you measure code quality?
+### How do you measure code quality?
 
 - Based on bugs found
 
@@ -206,7 +206,7 @@ Measurement is key to being able to assess performance and target improvement. M
 
 - We track the density of production incidents and performance back to the code
 
-#### What decisions do you make by looking at usage data from your applications?
+### What decisions do you make by looking at usage data from your applications?
 
 - Marketing campaigns track usage to understand response and conversion rates
 
@@ -218,11 +218,11 @@ Measurement is key to being able to assess performance and target improvement. M
 
 > Deployment frequency, lead time for changes, change failure rate, and time to recover are key indicators of performance. They correlate strongly with other measures of IT and business success and are prime ways to assess DevOps effectiveness. Here is a good example for the use of metrics.
 
-### Outcomes
+## Outcomes
 
 The point of DevOps is to achieve better outcomes. More frequent deployments allow you introduce new value more quickly. Higher deployment velocity gives you faster feedback on every change. Faster time to mitigate failures gives your users higher availability. More successful changes eliminate rework and let you go faster. All of these lead to more satisfied cusotmers and more motivated employees.
 
-#### For the application or service you work on, how often does your organization deploy code to production?
+### For the application or service you work on, how often does your organization deploy code to production?
 
 - Less often than once per six months
 
@@ -236,7 +236,7 @@ The point of DevOps is to achieve better outcomes. More frequent deployments all
 
 - On demand (multiple deploys per day)
 
-#### What is your lead time for changes (i.e., how long does it take to go from "code committed" to "code successfully running in production")?
+### What is your lead time for changes (i.e., how long does it take to go from "code committed" to "code successfully running in production")?
 
 - More than six months
 
