@@ -3,7 +3,7 @@ title:  "Devops Assessment"
 tags: [devops]
 ---
 
-As devops consultant, when we have a new clients to partner with. Our approach is first to assess the devops capabilities of the clients. This help us to identify gaps, which we can then propose how we can bridge those gaps.
+As DevOps consultant, when we have a new clients to partner with. Our approach is first to assess the devops capabilities of the clients. This help us to identify gaps, which we can then propose how we can bridge those gaps.
 
 For example, these are some questions we ask:
 
