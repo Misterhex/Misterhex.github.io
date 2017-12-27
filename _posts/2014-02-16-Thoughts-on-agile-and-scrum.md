@@ -2,7 +2,7 @@
 tags: [software-engineering, agile, scrum]
 ---
 
-So i have been working in the [Scrum](http://en.wikipedia.org/wiki/Scrum_%28development%29) and [Agile](en.wikipedia.org/wiki/Agile_software_development) metholodology for about 4 years now. I feel like i could share some of my thoughts.
+So i have been working in the [Scrum](http://en.wikipedia.org/wiki/Scrum_%28development%29) and [Agile](en.wikipedia.org/wiki/Agile_software_development) metholodology for many years now. I feel like i could share some of my thoughts.
 
 In the first 2 years of my career, I worked in a hedge fund start-up that tried to adopt scrum. We had our daily stand-up meeting, sprint planning, product backlog, retrospective, etc. 
 
