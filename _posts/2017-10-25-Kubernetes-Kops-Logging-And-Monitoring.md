@@ -9,9 +9,9 @@ To quickly setup kubernetes and monitoring using kops, follow my [example github
 ## Background
 Recently, i am helping our client move their applications to containerized microservices.
 
-Moving to `docker` containers provide many benefits. However, docker alone does not allow us to orchestrate our containers in productions, so that we can horizontally scale our microservices across nodes to provide highly availablility and scalability. To solve that problem, we need a container platform/orchestrator technology. We adopted `kubernetes` as our containers orchestrator of choice. 
+Moving to `docker` containers provide many benefits. However, docker alone does not allow us to orchestrate our containers in productions.   To solve that problem, we need a container platform/orchestrator technology. We adopted `kubernetes` as our containers orchestrator of choice. Kubernetes allow us to horizontally scale our microservices across nodes to provide highly availablility and scalability.
 
-In this post, i would like to document how we are running `kubernetes` in production.
+In this post, i would like to document how we are explored the various orchestrator options and how we are running `kubernetes` in production.
 
 ## KOPS ( Kubernetes Operation)
 
