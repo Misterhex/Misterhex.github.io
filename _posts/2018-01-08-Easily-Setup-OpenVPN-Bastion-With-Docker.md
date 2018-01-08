@@ -1,5 +1,5 @@
 ---
-title:  "Easily Setup OpenVPN Bastion Server with Docker"
+title:  "Easy Setup Of OpenVPN Bastion Server Using Docker"
 ---
 
 `OpenVPN` is a full-featured open source Secure Socket Layer (SSL) VPN solution. While trying to secure amazon elasticsearch service, we decided that an openvpn bastion server would be the simplest way for us to securely access `kibana` and `elasticsearch service` from our home, office, or anywhere as long as we have proper client certificate.
