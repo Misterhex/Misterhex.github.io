@@ -8,7 +8,7 @@ tags: [devops, docker]
 ## Setup
 We use a small t2.micro amazon linux ami with `elastic ip` attached and `docker` installed on the machine, the `security group` is set to open udp on port `1194` to `0.0.0.0/32` cidr range. The server sit in a public subnet of the vpc.
 
-OpenVPN itself is ran using the docker image `https://github.com/kylemanna/docker-openvpn`, this is an amazing image that really ease the setup and creation of client certificate of the OpenVPN server. 
+OpenVPN itself is ran using the docker image [https://github.com/kylemanna/docker-openvpn](https://github.com/kylemanna/docker-openvpn), this is an amazing image that really ease the setup and creation of client certificate of the OpenVPN server. 
 
 Once we have OpenVPN server up and running in docker, and the client `.ovpn` files generated, the files can be distributed to the users that require access. We are ready to connect to the vpn.
 
