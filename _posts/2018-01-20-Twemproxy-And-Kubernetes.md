@@ -3,7 +3,7 @@ title:  "Running Twemproxy In Kubernetes"
 tags: [devops, kubernetes]
 ---
 
-In this short post, i would like to how to setup [twemproxy]() for [redis]() cluster sharding running in [kubernetes]().
+In this post, i would like share on how to setup [twemproxy]() for [redis]() cluster sharding running in [kubernetes]().
 
 ## Setup
 These are the few tasks required:
