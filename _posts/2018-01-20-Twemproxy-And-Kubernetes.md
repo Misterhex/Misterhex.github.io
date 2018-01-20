@@ -6,7 +6,7 @@ tags: [devops, kubernetes]
 In this post, i would like share on how to setup [twemproxy]() for [redis]() cluster sharding running in [kubernetes]().
 
 ## Setup
-These are the few tasks required:
+These are the tasks required:
 
 - Running `twemproxy` as a single replica deployment in `kubernetes`.
 - Running `redis` replicas as [statefulsets]() with  with in `kubernetes`.
