@@ -3,7 +3,9 @@ title:  "Mitigating DDOS attacks on AWS"
 tags: [devops, aws, architecture]
 ---
 
-Recently, a friend asked about how to handle ddos attacks on AWS. We discussed and this are some pointers. Lets say there are 3 components; nodejs api, redis, mysql.
+Recently, a friend asked about how to handle ddos attacks on AWS. We discussed and theses are some pointers. 
+
+Lets say there are 3 components; nodejs api, redis, mysql which we need to setup for our web stack in AWS.
 
 Basic architectures setup:
 1. register the domain with route53 name servers for highly available dns.
