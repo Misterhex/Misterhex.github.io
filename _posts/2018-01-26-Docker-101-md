@@ -13,19 +13,24 @@ tags: [devops, docker]
 
 ## DevOps Matrix From Hell
 
+![cname file content]({{ site.url }}/assets/img/matrix-from-hell.png)
 
 **DevOps Matrix From Hell** is the challenge of packaging any application, regardless of language/frameworks/dependencies, so that it can run on any cloud, regardless of operating systems/hardware/infrastructure. This is due to the multipicity of many language/technology/framework stacks that need to installed on so different hardware and operating system environments.
 
+![cname file content]({{ site.url }}/assets/img/container-for-code.png)
 
 Docker act as a system container for code. It encapsulate all the dependencies within a container. The container can then be run the same way in any environment. Docker solved for the matrix from hell by decoupling the application from the underlying operating system and hardware. It did this by packaging all dependencies inside Docker containers, including the OS. 
 
 
+![cname file content]({{ site.url }}/assets/img/matrix-from-hell-2.png)
 
 This makes Docker containers "portable", i.e. they can run on any cloud or machine without the dreaded "it works on this machine" problems. The manipulation and operations of the docker containers is the same for all supported hardware platforms.
 
 
 
 ## Containers vs Virtual Machines
+
+![cname file content]({{ site.url }}/assets/img/virtual-machines.png)
 
 Docker container is a kind of light weight virtual machine with considerably smaller memory and disk space footprint than a full blown virtual machine.
 
@@ -35,6 +40,8 @@ What this means in practice is you can put two to three times as many as applica
 
 
 ## Seperation Of Concerns
+
+![cname file content]({{ site.url }}/assets/img/seperation-of-concerns.png)
 
 - Developers can focus on packaging applications and dependencies as containers, without worrying about underlying infrastructure. 
 - Developers worries about what is *inside* the container. e.g. code, libraries, package manager, apps, data, etc
@@ -52,6 +59,7 @@ What this means in practice is you can put two to three times as many as applica
 - Deployment is easy. If it runs in your container, it will run on your server just the same.
 
 ## For Operators
+
 - Deployment is more efficient, consistent, and repeatable.
 - Eliminate inconsistencies between development, test, production, and customer environments.
 - Support segregation of duties.
@@ -62,13 +70,10 @@ What this means in practice is you can put two to three times as many as applica
 
 Docker works by using linux containers and kernel facilities.
 
+![cname file content]({{ site.url }}/assets/img/docker-internals.png)
+
 - Linux kernel namespaces provides the isolation.
 - Linux kernel cgroups provide the resource limiting ( cpu, memory, I/O )
 - AUFS provide the union file system for docker. ( to avoid duplicating a complete set of files each time you run an image as a new container)
-
-
-
-
-
 
 
