@@ -1,4 +1,7 @@
-
+---
+title:  "Running fluentd as a log aggregrator on kubernetes"
+tags: [devops, fluentd, kubernetes]
+---
 
 At work, i have been responsible for setting up and maintaining log aggregration using fluentd on kubernetes. Our fluentd serve as the unified logging layer for our platform, we ingest logs from various inputs.
 
