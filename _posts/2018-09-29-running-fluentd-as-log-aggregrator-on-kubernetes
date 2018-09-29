@@ -1,0 +1,20 @@
+
+
+At work, i have been responsible for setting up and maintaining log aggregration using fluentd on kubernetes. Our fluentd serve as the unified logging layer for our platform, we ingest logs from various inputs.
+
+1) using out_forward plugin, all docker containers logs via fluentbit.
+2) Using in_systemd plugin, we collcet systemd/journald logs from control planes such as kube api server logs, kubelet logs, docker daemon, auditd, etcd, etc.
+3) using in_http plugin, we point our kong api gateway http logs to fluentd.
+4) We have sidecar fluentbit containers that need tail and parse logs from application containers, then shipping them with out_forward.
+
+we then ship copies to our primary and secondary elasticsearch clusters.
+
+This give us several benefits:
+
+- Very easily configure new input and output source.
+- Scale horizontally by having multiple pods and load balance them.
+- Monitor all fluentd pods with prometheus plugin, to fire off alerts when we have buffer/back pressure building up, or simply when our output sources is down.
+- Using horizontalpod autoscaler, we can dynamically scale fluentd to handle spikes, e.g. a container that is on a crash loop emittings stacktrace.
+- Fluentd is a reliable message forwarder with at-least-once message delivery semantics for critical audit logs by having buffering mechanism in place, buffering can be backed by memory or disk.
+- Nice organization of configuration using @LABEL and @INCLUDE. We also have our own mustache templating for more complex configuration.
+- Deployment using kubernetes rolling update.
