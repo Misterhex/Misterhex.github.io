@@ -21,4 +21,4 @@ Envoy is amazing, and seeing adoption in many large projects, e.g. [istio](http:
 
 It is also enabler for a lot of capabilities, such as fault injections, traffic mirroring and shifting for safe canaries deployment.
 
-Highly recommended to check it out!
+Highly recommended to check it out! [http://envoyproxy.io](http://envoyproxy.io)
