@@ -3,7 +3,7 @@ title:  "Elasticsearch + LVM Striping"
 tags: [devops, elasticsearch, lvm]
 ---
 
-At work, while managing a fleet of elasticsearch clusters, we have several linux boxes that have inconsistent number of block devices attached. So to simplify the playbook, we don't want each hosts to have different `host_vars` and `path.data` settings, it will lead to configuration mess. 
+At work, while managing a fleet of elasticsearch clusters, we have several linux boxes that have inconsistent number of block devices attached. So to simplify the playbook, we don't want each hosts to have different `host_vars` with `path.data` settings, it will lead to configuration mess. 
 
 So our solutions is to go with lvm, and create a single logically volume with striping enabled, out of multiple physical disks.
 
